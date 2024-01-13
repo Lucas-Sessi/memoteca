@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class PensamentoService {
 
-  private readonly API = 'https://lucas-sessi.github.io/json-server-memoteca/'
+  private readonly API = 'https://json-server-memoteca.vercel.app/'
 
   constructor(private http: HttpClient) { }
 
